@@ -1,6 +1,6 @@
 # buildedassets-upload-webpack-plugin
 Upload the webpack packaged file to cdn or some other place
-
+#### webpack3/4 | node.js v8 above
 ### Install
 
 ``` npm i -D buildedassets-upload-webpack-plugin```

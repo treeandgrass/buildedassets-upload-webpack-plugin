@@ -1,6 +1,6 @@
 {
   "name": "buildedassets-upload-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upload the webpack packaged file to cdn or some other place",
   "main": "index.js",
   "scripts": {

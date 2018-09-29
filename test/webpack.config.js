@@ -12,9 +12,9 @@ module.exports = {
   },
   plugins: [
     new UploadPlugin({
-      filterExts: [],
+      filterExts: [ '.mp3', '.mp4', '.html', '.css', '.json', '.jpeg', '.png', '.svg'],
       delayTime: 1000,
-      root: './file',
+      // root: './file',
       fileUpload: {
         upload(paths, callback) {
           callback(paths)

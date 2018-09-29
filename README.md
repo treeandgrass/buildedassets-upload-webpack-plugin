@@ -10,18 +10,33 @@ Upload the webpack packaged file to cdn or some other place
 ```
 plugins: [
     new UploadPlugin({
+      filterExts: ['.js'],
+      delayTime: 1000,
       fileUpload: {
         upload(paths, callback) {
-          /**/
+          /* callback(paths) */
         },
-        callback() {
-          /**/
+        callback(args) {
+          /* console.log(args)*/
         }
       }
     })
   ]
- ````
+````
+ **!important** If you do not pass the fileUpload object, default use netease nos sdk to upload the file to nos.
+ You need to refer to the following [document](https://www.163yun.com/help/documents/15677636352917504) configuration
  
+ ```
+ new UploadPlugin({
+      filterExts: ['.js'],
+      delayTime: 1000,
+      accessId: 'id',
+      secretKey: '',
+      endpoint: '',
+      port: 80,
+      bucket: 'bucket'
+})
+ ```
  
  ### Description
  

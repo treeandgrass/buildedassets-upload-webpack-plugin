@@ -1,0 +1,27 @@
+{
+  "name": "buildedassets-upload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Upload the webpack packaged file to cdn or some other place",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treeandgrass/buildedassets-upload-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "upload",
+    "cdn"
+  ],
+  "author": "milkyway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treeandgrass/buildedassets-upload-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/treeandgrass/buildedassets-upload-webpack-plugin#readme",
+  "dependencies": {
+    "nos-node-sdk": "^0.0.5"
+  }
+}

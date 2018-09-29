@@ -29,6 +29,7 @@ plugins: [
  ```
  new UploadPlugin({
       filterExts: ['.js'],
+      root: './dist',
       delayTime: 1000,
       accessId: 'id',
       secretKey: '',
